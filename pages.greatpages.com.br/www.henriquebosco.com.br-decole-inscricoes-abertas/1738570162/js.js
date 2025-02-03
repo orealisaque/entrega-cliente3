@@ -1762,10 +1762,7 @@ var GModalApproval = function(){
  if (configuracao.barra.hasOwnProperty('botao_aceitar') == false){configuracao.barra.botao_aceitar = 'Entendi e aceito';}
  if (configuracao.barra.hasOwnProperty('texto') == false){configuracao.barra.texto = 'Usamos cookies para personalizar conteúdos e melhorar a sua experiência.';}
  
- var barra = '<div id="gpc-lgpd_texto">'+configuracao.barra.texto+'</div>';
- barra += '<div id="gpc-lgpd_botoes">';
- if(configuracao.barra.botao_configurar){barra += '<div id="gpc-lgpd_botoes-configurar" class="gpc-lgpd_botoes-botao">'+configuracao.barra.botao_configurar+'</div>';}
- barra += '<div id="gpc-lgpd_botoes-confirmar" class="gpc-lgpd_botoes-botao">'+configuracao.barra.botao_aceitar+'</div>';
+
  barra += "</div>";
  if(configuracao.barra.fechar){barra += '<div id="gpc-lgpd_fechar"></div>';}
  
